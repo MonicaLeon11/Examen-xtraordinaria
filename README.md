@@ -1,7 +1,7 @@
 >[!IMPORTANT]
 >Esto es el examen de extraordinaria de Entorno cliente
 >
->[!NOTE]
+>.[!NOTE]
 >Apartado 1
 Crea un componente React llamado Combo. Dicho componente tendrá el siguiente comportamiento:
 •Recibirá un id como propiedad
