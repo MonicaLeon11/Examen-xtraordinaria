@@ -5,12 +5,13 @@ import { añadirCombo, borrarCombo } from "./redux/Comboslice";
 import Combo from "./Combo";
 import BtnAñadir from "./btn-añadir";
 import BtnBorrar from "./btn-borrar";
+import BotonEnviar from "./btn-enviar";
 
 const MIN_COMBOS = 1;
 const MAX_COMBOS = 5;
 
 function App() {
-  const combos = useSelector((state) => state.combo);
+  const combos = useSelector((state) => state.combo.combos);
   const dispatch = useDispatch();
 
   return (
@@ -34,6 +35,7 @@ function App() {
         </div>
       </div>
       <Combo />
+      <BotonEnviar />
     </>
   );
 }
